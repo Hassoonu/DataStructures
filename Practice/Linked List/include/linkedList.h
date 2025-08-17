@@ -28,6 +28,7 @@ class List
             ListNode(T& data) : data(data), next(nullptr) {}
         };
 
+        // implementation assumes that the _head node also holds a piece of data.
         ListNode* _head;
 };
 
